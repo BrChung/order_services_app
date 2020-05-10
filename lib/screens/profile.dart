@@ -9,11 +9,11 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepOrange,
-        title: Text('profile'),
+        title: Text('Profile'),
       ),
       body: Center(
         child: FlatButton(
-            child: Text('logout'),
+            child: Text('Logout'),
             color: Colors.red,
             onPressed: () async {
               await auth.signOut();

@@ -36,11 +36,11 @@ class LoginScreenState extends State<LoginScreen> {
               size: 150,
             ),
             Text(
-              'Login to Start',
+              'Order Services',
               style: Theme.of(context).textTheme.headline,
               textAlign: TextAlign.center,
             ),
-            Text('Your Tagline'),
+            Text('Login to start!'),
             LoginButton(
               text: 'LOGIN WITH GOOGLE',
               icon: FontAwesomeIcons.google,
