@@ -37,7 +37,7 @@ class LoginScreenState extends State<LoginScreen> {
             ),
             Text(
               'Order Services',
-              style: Theme.of(context).textTheme.headline,
+              style: Theme.of(context).textTheme.headline5,
               textAlign: TextAlign.center,
             ),
             Text('Login to start!'),
